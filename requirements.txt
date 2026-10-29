@@ -1,0 +1,9 @@
+langchain>=0.1.16
+langchain-groq>=0.1.2
+langchain-chroma>=0.1.2
+langchain-community>=0.0.34
+sentence-transformers>=2.7.0
+SQLAlchemy>=2.0.29
+python-dotenv>=1.0.1
+google-api-python-client>=2.126.0
+google-auth-oauthlib>=1.2.0
