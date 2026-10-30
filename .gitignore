@@ -4,4 +4,4 @@ __pycache__/
 *.db
 credentials.json
 token.json
-.vscode/
+.vscode/git init
