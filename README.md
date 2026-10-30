@@ -1,6 +1,6 @@
 # 🤖 Autonomous AI Service Desk
 
-An intelligent, tool-calling AI support desk that autonomously resolves enterprise IT tickets, enforces company policies via Retrieval-Augmented Generation (RAG), and executes third-party integrations based on SQL-driven user permission tiers.
+An intelligent, tool-calling AI support desk that autonomously resolves IT tickets, enforces company policies via Retrieval-Augmented Generation (RAG), and executes third-party integrations based on SQL-driven user permission tiers.
 
 Built with **LangChain**, **Groq**, **ChromaDB**, and **Streamlit**, this system acts as a Level-0 support engineer, completely automating repetitive IT requests, reducing ticket bloat, and providing white-glove service to VIP users.
 
@@ -20,7 +20,7 @@ Built with **LangChain**, **Groq**, **ChromaDB**, and **Streamlit**, this system
 * `check_and_book_calendar`: Interfaces with Google Calendar to schedule mediation meetings.
 
 
-* **Synchronous UI Streaming:** Bypasses asynchronous LangChain callback crashes by executing natively on the main thread, resulting in a perfectly stable, enterprise-grade loading UI.
+* **Stateful Conversational Memory:** Maintains deep context across multi-turn interactions, allowing the agent to guide users through step-by-step troubleshooting and automatically attach previous conversational context when logging a ticket.
 
 ---
 
