@@ -72,3 +72,13 @@ def build_service_desk_agent(user_email: str):
     )
     
     return memory_agent
+
+
+def execute_agent(user_input: str, user_email: str, session_id: str):
+    print(f"\n[SYSTEM] Executing request for {user_email}...")
+    
+    agent = build_service_desk_agent(user_email)
+    config = {"configurable": {"session_id": session_id}}
+        
+    response = agent.invoke({"input": user_input}, config=config)
+    return response["output"]

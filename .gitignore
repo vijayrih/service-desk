@@ -1,7 +1,8 @@
 venv/
 __pycache__/
+.vscode/
 .env
-*.db
 credentials.json
 token.json
-.vscode/git init
+service_desk.db
+chroma_db/
